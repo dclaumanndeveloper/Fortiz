@@ -20,7 +20,7 @@ public partial class MainPage : ContentPage
         //{
         // An unexpected error occured. No browser may be installed on the device.
         //}
-
+         
         await Navigation.PushAsync(new NR01());
     }
 
