@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Fortiz.Views.NR32"
+             Title="NR32"
+             BackgroundColor="LightSeaGreen">
+    <VerticalStackLayout VerticalOptions="Start" HorizontalOptions="Start" Margin="10">
+        <Label Text="Documentos obrigatórios"/>
+        <Label 
+            Text="&#10003;	PGR (com observações da NR-32)&#10; &#10003;	PCMSO (com observações da NR-32)&#10; &#10003;	Plano de proteção radiológica (PPR), aprovado pela CNEN&#10; &#10003;	Programa de garantia de qualidade&#10; &#10003;	Alvará de funcionamento&#10; &#10003;	Plano de Prevenção de Riscos de Acidentes com Materiais Perfurocortantes, PGRSS&#10; &#10003;	Plano de Gerenciamento de Resíduos de Serviço de Saúde&#10; &#10003;	Normas e procedimentos de higiene&#10; &#10003;	Procedimentos em situações de emergências&#10; &#10003;	Análises de acidentes&#10; &#10003;	Comprovação dos treinamentos
+"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+    </VerticalStackLayout>
+</ContentPage>

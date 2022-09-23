@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Fortiz.Views.NR07"
+             Title="NR07"
+             BackgroundColor="LightSeaGreen">
+    <VerticalStackLayout VerticalOptions="Start" HorizontalOptions="Start" Margin="10">
+        <Label Text="Documentos obrigatórios"/>
+        <Label 
+            Text="&#10003; Prontuário médico individual do empregado &#10;&#10003;	Relatório analítico anual do PCMSO &#10;&#10003;	PCMSO  &#10;&#10003;	Registros dos ASO &#10;&#10003;	Controle dos prazos dos exames periódicos &#10;&#10003;	Programa de Proteção Respiratória (PPR) &#10;&#10003;	Programa de Conservação Auditiva (PCA) &#10;&#10003;	Indicação do responsável pelo cumprimento da NR 7 &#10;"/>
+    </VerticalStackLayout>
+</ContentPage>

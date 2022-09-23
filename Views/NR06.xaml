@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Fortiz.Views.NR06"
+             Title="NR06"
+             BackgroundColor="LightSeaGreen">
+    <VerticalStackLayout VerticalOptions="Start" HorizontalOptions="Start" Margin="10">
+        <Label Text="Documentos obrigatórios"/>
+        <Label 
+            Text="&#10003;	Notas fiscais de compra dos EPI e seus respectivos CA &#10;&#10003;	Registros de entrega do EPI &#10;&#10003;	Comprovação dos treinamentos &#10;&#10003;	Relação de cargos e funções &#10;&#10003;	Tabela de EPI recomendado por função &#10;&#10003;	Treinamento dos colaboradores quanto ao uso, guarda e conservação dos EPI e comprovação dos treinamentos.&#10;"
+/>
+    </VerticalStackLayout>
+</ContentPage>

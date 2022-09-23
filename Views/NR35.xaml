@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Fortiz.Views.NR35"
+             Title="NR35"
+             BackgroundColor="LightSeaGreen">
+    <VerticalStackLayout VerticalOptions="Start" HorizontalOptions="Start" Margin="10">
+        <Label Text="Documentos obrigatórios"/>
+        <Label 
+            Text="&#10003;	Análise Preliminar de Risco (APR)&#10; &#10003;	Permissão de Trabalho (PT)&#10; &#10003;	Procedimento operacional&#10; &#10003;	Exames clínicos específicos&#10; &#10003;	Registros de inspeção dos sistemas de ancoragem&#10; &#10003;	Treinamento periódico bienal para trabalhadores que executam atividades acima de dois metros, com carga horária mínima de oito horas e Comprovação de treinamentos"
+         />
+    </VerticalStackLayout>
+</ContentPage>

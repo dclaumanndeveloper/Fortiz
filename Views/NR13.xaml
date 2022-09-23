@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Fortiz.Views.NR13"
+             Title="NR13"
+             BackgroundColor="LightSeaGreen">
+    <VerticalStackLayout VerticalOptions="Start" HorizontalOptions="Start" Margin="10">
+        <Label Text="Documentos obrigatórios"/>
+        <Label 
+            Text="&#10003;	Prontuário da caldeira &#10;&#10003;		Registro de segurança &#10;&#10003;	Projeto de instalação  &#10;&#10003;	Projeto de alteração ou reparo  &#10;&#10003;	Relatórios de inspeção de segurança &#10;&#10003;	Certificados de calibração dos dispositivos de segurança &#10;&#10003;	Manual de operação &#10;&#10003;	Laudo do teste hidrostático &#10;&#10003;	Plano de inspeção de tubulações &#10;&#10003;	Plano de manutenção de tubulações &#10;&#10003;	Comunicação de vazamento, incêndio ou explosão &#10;&#10003;	Treinamento dos colaboradores, carga horária conforme a NR 13 e Comprovação dos treinamentos &#10;"/>
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Fortiz.Views.NR18"
+             Title="NR18"
+             BackgroundColor="LightSeaGreen">
+    <ScrollView>
+        <VerticalStackLayout VerticalOptions="Start" HorizontalOptions="Start" Margin="10">
+            <Label Text="Documentos obrigatórios"/>
+            <Label 
+            Text="&#10003;	Comunicação Prévia de Obras &#10;&#10003;	PGR da NR-18 &#10; &#10003;	Projeto da área de vivência do canteiro de obras e de eventual frente de trabalho &#10; &#10003;	Projeto elétrico das instalações temporárias &#10; &#10003;  Projeto dos sistemas de proteção coletiva &#10; &#10003;	Projetos dos Sistemas de Proteção Individual Contra Quedas (SPIQ)&#10; &#10003;	Relação dos Equipamentos de Proteção Individual (EPI)&#10; &#10003;	Projeto das áreas de vivência&#10; &#10003;	Projeto das instalações elétricas conforme NR-10&#10; &#10003;	Projeto do Sistema de Proteção contra Descargas Atmosféricas (SPDA)&#10; &#10003;	Documento de monitoração das escavações&#10; &#10003;	Projeto de escavação, fundação e desmonte de rochas&#10; &#10003;	Projeto das formas e dos escoramentos&#10; &#10003;	Plano de cargas no canteiro de obras&#10; &#10003;	Laudo estrutural no canteiro de obras&#10; &#10003;	Laudo operacional dos equipamentos do canteiro de obras&#10; &#10003;	Plano de demolição&#10; &#10003;	Plano de resgate e remoção&#10; &#10003;	Plano de fogo para detonação&#10; &#10003;	Plano de ação para descompressão&#10; &#10003;	Projeto de instalação, montagem e desmontagem de andaime e plataforma de trabalho&#10; &#10003;	Plano de emergência para acidentes em tubulação&#10; &#10003;	Registro das inspeções durante a concretagem&#10; &#10003;	Análises de riscos para trabalhos a quente&#10; &#10003;	Comprovação dos treinamentos&#10; &#10003;	Dimensionamento dos equipamentos de transporte vertical de materiais e de pessoas&#10; &#10003;	Programa de manutenção preventiva&#10; &#10003;	Termo de entrega técnica&#10; &#10003;	Laudo de testes dos freios de emergência&#10; &#10003;	Registro, pelo operador, das vistorias diárias realizadas antes do início dos serviços&#10; &#10003;	Laudos dos ensaios não destrutivos dos eixos dos motofreios e dos freios de emergência&#10; &#10003;	Manual de orientação do fabricante&#10; &#10003;	Registro das atividades de manutenção&#10; &#10003;	Laudo de aterramento&#10; &#10003;	FISPQ de materiais tóxicos, corrosivos, inflamáveis ou explosivos &#10;"
+           />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

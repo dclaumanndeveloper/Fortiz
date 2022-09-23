@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Fortiz.Views.NR01"
+             Title="NR01"
+             BackgroundColor="LightSeaGreen">
+    <VerticalStackLayout VerticalOptions="Start" HorizontalOptions="Start" Margin="10">
+        <Label Text="Documentos obrigatórios"  
+          />
+        <Label 
+            Text="&#10003; Ordens de serviço" />
+        <Label Text="&#10003; Inventário de perigos e riscos"
+                />
+        <Label Text="&#10003; Plano de ação"
+                />
+        <Label Text="&#10003; Plano de ação"
+               />
+        <Label Text="&#10003; Análise de acidentes e adoecimentos"
+                />
+        <Label Text="&#10003; Plano de resposta a emergência"
+               />
+        <Label Text="&#10003; 
+Treinamento de integração dos colaboradores e comprovação dos treinamentos &#10;
+a)	Cópia dos certificados; &#10;
+b)	Fotos; &#10;
+c)	Lista de Presença; &#10;
+Se a modalidade for EAD ou semipresencial, comprovação do cumprimento da carga horária.&#10;"
+               />
+    </VerticalStackLayout>
+</ContentPage>

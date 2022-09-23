@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Fortiz.Views.NR33"
+             Title="NR33"
+             BackgroundColor="LightSeaGreen">
+    <VerticalStackLayout VerticalOptions="Start" HorizontalOptions="Start" Margin="10">
+        <Label Text="Documentos obrigatórios"/>
+        <Label 
+            Text="&#10003;	Inventário de espaços confinados&#10; &#10003;	Treinamento periódico dos colaboradores, carga horária conforme estabelece a NR 33 e Comprovação de treinamentos&#10; &#10003;	Elaboração, cumprimento e encerramento em todas as entradas e registros das permissões de entrada e trabalho (PET)&#10; &#10003;	Análise preliminar de riscos (APR)&#10; &#10003;	Registros de certificação e calibração de instrumentos&#10; &#10003;	Procedimentos de trabalho em espaços confinados&#10; &#10003;	Exames médicos específicos&#10; &#10003;	Procedimentos de emergência e resgate"/>
+    </VerticalStackLayout>
+</ContentPage>

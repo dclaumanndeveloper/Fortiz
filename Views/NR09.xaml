@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Fortiz.Views.NR09"
+             Title="NR09"
+             BackgroundColor="LightSeaGreen">
+    <VerticalStackLayout VerticalOptions="Start" HorizontalOptions="Start" Margin="10">
+        <Label Text="Documentos obrigatórios"/>
+        <Label 
+            Text="&#10003;	Avaliação quantitativa dos agentes químicos e físicos presentes no ambiente &#10;&#10003;	Avaliação qualitativa dos agentes biológicos&#10;"
+           />
+    </VerticalStackLayout>
+</ContentPage>

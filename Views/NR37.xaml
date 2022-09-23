@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Fortiz.Views.NR37"
+             Title="NR37"
+             BackgroundColor="LightSeaGreen">
+    <VerticalStackLayout VerticalOptions="Start" HorizontalOptions="Start" Margin="10">
+        <Label Text="Documentos obrigatórios"/>
+        <Label 
+            Text="&#10003;	Declaração da Instalação Marítima (DIM)&#10; &#10003;	Análises de risco&#10; &#10003;	Comprovação dos treinamentos&#10; &#10003;	Plano de Resposta de Emergências (PRE)&#10; &#10003;	Registros dos DDS&#10; &#10003;	Documentação comprobatória de SESMT (terra e a bordo)&#10; &#10003;	Documentação comprobatória"/>
+    </VerticalStackLayout>
+</ContentPage>

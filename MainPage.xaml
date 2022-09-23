@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Fortiz.MainPage"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="LightSeaGreen">
+
+    <ScrollView>
+        <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center" Margin="10">
+            <Label Text="Normas da Segurança do Trabalho" FontSize="Subtitle" TextColor="White" HorizontalTextAlignment="Start" FontAutoScalingEnabled="True" FontAttributes="Bold"/>
+
+            <Grid Padding="16" RowSpacing="10" ColumnSpacing="10" Margin="0"
+          RowDefinitions="2*,*,*,*,*,*"
+          ColumnDefinitions="*,*,*,*" HorizontalOptions="StartAndExpand" VerticalOptions="Start">
+                <Button x:Name="NR01" Text="NR-01" BackgroundColor="Transparent" TextColor="White" Grid.Row="0" Grid.Column="0" Clicked="NR01_Clicked"/>
+                <Button x:Name="NR02" Text="NR-02/" BackgroundColor="Transparent" TextColor="White" Grid.Row="0" Grid.Column="1" Clicked="NR02_Clicked"/>
+                <Button x:Name="NR03" Text="NR-03" BackgroundColor="Transparent" TextColor="White" Grid.Row="0" Grid.Column="2" Clicked="NR03_Clicked"/>
+                <Button x:Name="NR04" Text="NR-04" BackgroundColor="Transparent" TextColor="White" Grid.Row="0" Grid.Column="3" Clicked="NR04_Clicked"/>
+                <Button x:Name="NR05" Text="NR-05" BackgroundColor="Transparent" TextColor="White" Grid.Row="1" Grid.Column="0" Clicked="NR05_Clicked"/>
+                <Button x:Name="NR06" Text="NR-06" BackgroundColor="Transparent" TextColor="White" Grid.Row="1" Grid.Column="1" Clicked="NR06_Clicked"/>
+                <Button x:Name="NR07" Text="NR-07" BackgroundColor="Transparent" TextColor="White" Grid.Row="1" Grid.Column="2" Clicked="NR07_Clicked"/>
+                <Button x:Name="NR08" Text="NR-08" BackgroundColor="Transparent" TextColor="White" Grid.Row="1" Grid.Column="3" Clicked="NR08_Clicked"/>
+                <Button x:Name="NR09" Text="NR-09" BackgroundColor="Transparent" TextColor="White" Grid.Row="2" Grid.Column="0" Clicked="NR09_Clicked"/>
+                <Button x:Name="NR10" Text="NR-10" BackgroundColor="Transparent" TextColor="White" Grid.Row="2" Grid.Column="1" Clicked="NR10_Clicked"/>
+                <Button x:Name="NR11" Text="NR-11" BackgroundColor="Transparent" TextColor="White" Grid.Row="2" Grid.Column="2" Clicked="NR11_Clicked"/>
+                <Button x:Name="NR12" Text="NR-12" BackgroundColor="Transparent" TextColor="White" Grid.Row="2" Grid.Column="3" Clicked="NR12_Clicked"/>
+                <Button x:Name="NR13" Text="NR-13" BackgroundColor="Transparent" TextColor="White" Grid.Row="3" Grid.Column="0" Clicked="NR13_Clicked"/>
+                <Button x:Name="NR14" Text="NR-14" BackgroundColor="Transparent" TextColor="White" Grid.Row="3" Grid.Column="1" Clicked="NR14_Clicked"/>
+                <Button x:Name="NR15" Text="NR-15" BackgroundColor="Transparent" TextColor="White" Grid.Row="3" Grid.Column="2" Clicked="NR15_Clicked"/>
+                <Button x:Name="NR16" Text="NR-16" BackgroundColor="Transparent" TextColor="White" Grid.Row="3" Grid.Column="3" Clicked="NR16_Clicked"/>
+                <Button x:Name="NR17" Text="NR-17" BackgroundColor="Transparent" TextColor="White" Grid.Row="4" Grid.Column="0" Clicked="NR17_Clicked"/>
+                <Button x:Name="NR18" Text="NR-18" BackgroundColor="Transparent" TextColor="White" Grid.Row="4" Grid.Column="1" Clicked="NR18_Clicked"/>
+                <Button x:Name="NR19" Text="NR-19" BackgroundColor="Transparent" TextColor="White" Grid.Row="4" Grid.Column="2" Clicked="NR19_Clicked"/>
+                <Button x:Name="NR20" Text="NR-20" BackgroundColor="Transparent" TextColor="White" Grid.Row="4" Grid.Column="3" Clicked="NR20_Clicked"/>
+                <Button x:Name="NR21" Text="NR-21" BackgroundColor="Transparent" TextColor="White" Grid.Row="5" Grid.Column="0" Clicked="NR21_Clicked"/>
+                <Button x:Name="NR22" Text="NR-22" BackgroundColor="Transparent" TextColor="White" Grid.Row="5" Grid.Column="1" Clicked="NR22_Clicked"/>
+                <Button x:Name="NR23" Text="NR-23" BackgroundColor="Transparent" TextColor="White" Grid.Row="5" Grid.Column="2" Clicked="NR23_Clicked"/>
+                <Button x:Name="NR24" Text="NR-24" BackgroundColor="Transparent" TextColor="White" Grid.Row="5" Grid.Column="3" Clicked="NR24_Clicked"/>
+            </Grid>
+            <Grid Padding="16" RowSpacing="10" ColumnSpacing="10" Margin="0"
+          RowDefinitions="2*,*,*,*,*,*"
+          ColumnDefinitions="*,*,*,*" HorizontalOptions="StartAndExpand" VerticalOptions="Start">
+                <Button x:Name="NR25" Text="NR-25" BackgroundColor="Transparent" TextColor="White" Grid.Row="0" Grid.Column="0" Clicked="NR25_Clicked"/>
+                <Button x:Name="NR26" Text="NR-26" BackgroundColor="Transparent" TextColor="White" Grid.Row="0" Grid.Column="1" Clicked="NR26_Clicked"/>
+                <Button x:Name="NR27" Text="NR-27/" BackgroundColor="Transparent" TextColor="White" Grid.Row="0" Grid.Column="2" Clicked="NR27_Clicked"/>
+                <Button x:Name="NR28" Text="NR-28" BackgroundColor="Transparent" TextColor="White" Grid.Row="0" Grid.Column="3" Clicked="NR28_Clicked"/>
+                <Button x:Name="NR29" Text="NR-29" BackgroundColor="Transparent" TextColor="White" Grid.Row="1" Grid.Column="0" Clicked="NR29_Clicked"/>
+                <Button x:Name="NR30" Text="NR-30" BackgroundColor="Transparent" TextColor="White" Grid.Row="1" Grid.Column="1" Clicked="NR30_Clicked"/>
+                <Button x:Name="NR31" Text="NR-31" BackgroundColor="Transparent" TextColor="White" Grid.Row="1" Grid.Column="2" Clicked="NR31_Clicked"/>
+                <Button x:Name="NR32" Text="NR-32" BackgroundColor="Transparent" TextColor="White" Grid.Row="1" Grid.Column="3" Clicked="NR32_Clicked"/>
+                <Button x:Name="NR33" Text="NR-33" BackgroundColor="Transparent" TextColor="White" Grid.Row="2" Grid.Column="0" Clicked="NR33_Clicked"/>
+                <Button x:Name="NR34" Text="NR-34" BackgroundColor="Transparent" TextColor="White" Grid.Row="2" Grid.Column="1" Clicked="NR34_Clicked"/>
+                <Button x:Name="NR35" Text="NR-35" BackgroundColor="Transparent" TextColor="White" Grid.Row="2" Grid.Column="2" Clicked="NR35_Clicked"/>
+                <Button x:Name="NR36" Text="NR-36" BackgroundColor="Transparent" TextColor="White" Grid.Row="2" Grid.Column="3" Clicked="NR36_Clicked"/>
+                <Button x:Name="NR37" Text="NR-37" BackgroundColor="Transparent" TextColor="White" Grid.Row="3" Grid.Column="0" Clicked="NR37_Clicked"/>
+
+            </Grid>
+
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

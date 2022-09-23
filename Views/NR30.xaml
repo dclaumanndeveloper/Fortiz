@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Fortiz.Views.NR30"
+             Title="NR30"
+             BackgroundColor="LightSeaGreen">
+    <VerticalStackLayout VerticalOptions="Start" HorizontalOptions="Start" Margin="10">
+        <Label Text="Documentos obrigatórios"/>
+        <Label 
+            Text="&#10003;	Comprovação de treinamentos&#10; &#10003;	Documento com indicação dos componentes do Grupo de Segurança e Saúde no Trabalho a Bordo das Embarcações (GSSTB)&#10; &#10003;	Dimensionamento da CIPA e indicação dos seus componentes&#10; &#10003;	Procedimentos de segurança e saúde no trabalho e do meio ambiente&#10; &#10003;	Registro dos acidentes de trabalho a bordo&#10; &#10003;	Análise das causas de acidentes do trabalho a bordo&#10; &#10003;	Quadro estatístico (Quadro I)  Comprovação de realização de palestras e debates a bordo&#10; &#10003;	Planejamento de simulados (abandono, combate a incêndio, resgate em ambientes confinados, prevenção a poluição e emergências em geral)&#10; &#10003;	Relatório de análise de simulados a bordo avaliando os resultados e propondo medidas corretivas&#10; &#10003;	Atas de reuniões ordinárias e extraordinárias"/>
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Fortiz.Views.NR05"
+             Title="NR05"
+             BackgroundColor="LightSeaGreen">
+    <VerticalStackLayout HorizontalOptions="Start" VerticalOptions="Start" Margin="10">
+        <Label Text="Documentos obrigatórios"/>
+        <Label 
+            Text="&#10003;	Acordo ou Convenção coletiva &#10;&#10003;	Memória de cálculo do dimensionamento do SESMT &#10;&#10003;	Documentação do processo eleitoral da CIPA &#10;&#10003;	Atas de eleição e de posse &#10;&#10003;	Calendário anual das reuniões ordinárias &#10;&#10003;	Atas das reuniões &#10;&#10003;	Mapa de riscos &#10;&#10003;	Plano de trabalho &#10;&#10003;	Treinamento dos cipeiros eleitos e indicados conforme carga horária definida na NR 5 e Comprovação do treinamento.&#10;
+"/>
+    </VerticalStackLayout>
+</ContentPage>

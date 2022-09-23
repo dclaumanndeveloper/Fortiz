@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Fortiz.Views.NR34"
+             Title="NR34"
+             BackgroundColor="LightSeaGreen">
+    <VerticalStackLayout VerticalOptions="Start" HorizontalOptions="Start" Margin="10">
+        <Label Text="Documentos obrigatórios"/>
+        <Label 
+            Text="&#10003;	Análise Preliminar de Risco (APR)&#10; &#10003;	Permissão de Trabalho (PT)&#10; &#10003;	Registro dos DDS&#10; &#10003;	Comprovação dos treinamentos&#10; &#10003;	Registros de inspeção preliminar para trabalhos a quente&#10; &#10003;	Plano de Resposta a Emergência (PRE)  Plano de Ajuda Mútua (PAM)&#10; &#10003;	Todas as empresas independentemente do ramo de atividade que realizam trabalhos a quente (solda, corte, esmerilhamento, entre outros), de acordo com a NR 34 devem passar por treinamento específico, com carga horária determinada na norma"/>
+    </VerticalStackLayout>
+</ContentPage>

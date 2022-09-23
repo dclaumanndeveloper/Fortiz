@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Fortiz.Views.NR12"
+             Title="NR12"
+             BackgroundColor="LightSeaGreen">
+    <VerticalStackLayout VerticalOptions="Start" HorizontalOptions="Start" Margin="10">
+        <Label Text="Documentos obrigatórios"/>
+        <Label 
+            Text="&#10003;	Relação atualizada das máquinas e equipamentos &#10;&#10003;	Comprovação dos treinamentos etapas teórica e prática &#10;&#10003;	Registros das manutenções &#10;&#10003;	Manuais de instruções em língua portuguesa &#10;&#10003;	Procedimentos de trabalho e segurança &#10;&#10003;	Comprovação dos treinamentos &#10;&#10003;	Registros das auditorias de adequação &#10;&#10003;	Projeto de adequação das máquinas &#10;" />
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Fortiz.Views.NR04"
+             Title="NR04"
+             BackgroundColor="LightSeaGreen">
+    <VerticalStackLayout HorizontalOptions="Start" VerticalOptions="Start" Margin="10">
+        <Label Text="Documentos obrigatórios"/>
+        <Label 
+            Text="&#10003;	Cópia do cartão de CNPJ da empresa com CNAE &#10;&#10003;	Memória de cálculo do dimensionamento do SESMT &#10;&#10003;	Registros dos acidentes ou adoecimentos &#10;&#10003;	Estatística mensal de acidentes e adoecimentos &#10;&#10003;	Lista dos integrantes do SESMT (nome, tipo de vínculo, matrícula, certificado de qualificação, registro profissional, etc) &#10;" />
+    </VerticalStackLayout>
+</ContentPage>
